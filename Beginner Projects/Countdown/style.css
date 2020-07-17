@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(241, 241, 241);
+    font-family: 'Aladin', cursive;;
+}
+
+.heading{
+    text-align: center;
+    margin: 50px 0;
+    font-size: 5rem;
+}
+
+.container{
+    width:40%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+}
+
+.display{
+    padding: 0 5px;
+    height:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    color:#000;
+    margin: 0 0 0 10px;
+}

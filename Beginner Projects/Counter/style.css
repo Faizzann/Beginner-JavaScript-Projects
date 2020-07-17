@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(241, 241, 241);
+    font-family: sans-serif;
+}
+
+.heading{
+    text-align: center;
+    margin: 50px 0;
+    font-size: 5rem;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.display{
+    width:auto;
+    margin: auto;
+}
+
+.display h2{
+    border: solid 1px #000;
+    border-radius: 30px;
+    padding: 10px 25px;
+}
+
+.buttons{
+    display:flex;
+    justify-content: space-between;
+    width: 300px;
+    margin: 50px auto;
+    font-size: 0.8rem;
+}
+
+.increase{
+    order: 1;
+    border: solid 1px #000;
+    border-radius: 30px;
+    padding:10px;
+}
+
+.increase:hover{
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+}
+
+.increase:active{
+    background-color: rgb(100, 100, 100);
+}
+
+.decrease{
+    order: 3;
+    border: solid 1px #000;
+    border-radius: 30px;
+    padding:10px;
+}
+
+.decrease:hover{
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+}
+
+.decrease:active{
+    background-color: rgb(100, 100, 100);
+}
+
+.reset{
+    order: 2;
+    border: solid 1px red;
+    border-radius: 30px;
+    padding:10px;
+    color: red;
+}
+
+.reset:hover{
+    cursor: pointer;
+    background-color: red;
+    color: #000;
+}
+
+.reset:active{
+    background-color: rgb(255, 88, 88);
+}

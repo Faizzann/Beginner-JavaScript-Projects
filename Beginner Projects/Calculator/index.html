@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/53592b4a53.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Aladin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1 class="heading">Calculator</h1>
+
+    <div class="container">
+        <div class="calc-display">
+            <h1 class="display-text">0</h1>
+        </div>
+        <div class="calc-btns">
+            <button class="btn operation modulus" onclick='pressedButton("%")'>%</button>
+            <button class="btn operation divide" onclick='pressedButton("/")'>/</button>
+            <button class="btn operation clear" onclick='pressedButton("C")'>C</button>
+            <button class="btn operation back" onclick='pressedButton("B")'>Back</button>
+            <button class="btn number seven" onclick='pressedButton(7)'>7</button>
+            <button class="btn number eight" onclick='pressedButton(8)'>8</button>
+            <button class="btn number nine" onclick='pressedButton(9)'>9</button>
+            <button class="btn operation multiply" onclick='pressedButton("*")'>*</button>
+            <button class="btn number four" onclick='pressedButton(4)'>4</button>
+            <button class="btn number five" onclick='pressedButton(5)'>5</button>
+            <button class="btn number six" onclick='pressedButton(6)'>6</button>
+            <button class="btn operation minus" onclick='pressedButton("-")'>-</button>
+            <button class="btn number one" onclick='pressedButton(1)'>1</button>
+            <button class="btn number two" onclick='pressedButton(2)'>2</button>
+            <button class="btn number three" onclick='pressedButton(3)'>3</button>
+            <button class="btn operation plus" onclick='pressedButton("+")'>+</button>
+            <button class="btn operation dot" onclick='pressedButton(".")'>.</button>
+            <button class="btn number zero" onclick='pressedButton(0)'>0</button>
+            <button class="btn operation equal" onclick='pressedButton("=")'>=</button>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
