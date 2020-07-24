@@ -9,30 +9,54 @@
     <title>Countdown</title>
 </head>
 <body>
+
+    <div class="user-input-container">
+        <div class="user-input">
+            <div>
+                <h1>Enter Time for CountDown</h1>
+                <hr>
+                <br>
+            </div>
+            <div class="text">
+                <h3>Days</h3>
+                <h3>Hours</h3>
+                <h3>Minutes</h3>
+                <h3>Seconds</h3>
+            </div>
+            <div class="input-time">
+                <input id="days" type="number" min="0" value="0" placeholder="D">
+                <input id="hours" type="number" min="0" max="24" value="0" placeholder="H">
+                <input id="minutes" type="number" min="0" max="60" value="0" placeholder="M">
+                <input id="seconds" type="number" min="0" max="60" value="0" placeholder="S">
+            </div>
+        </div>
+        <button id="start">START</button>
+    </div>
+
     <h1 class="heading">Countdown</h1>
 
     <div class="container">
         <div class="content days">
             <div class="display day">
-                <h3>00</h3>
+                <h3>0</h3>
             </div>
             <div class="text day-text"> Days</div>
         </div>
         <div class="content hours">
             <div class="display hour">
-                <h3>00</h3>
+                <h3>0</h3>
             </div>
             <div class="text hour-text"> Hours</div>
         </div>
         <div class="content minutes">
             <div class="display minute">
-                <h3>00</h3>
+                <h3>0</h3>
             </div>
             <div class="text minute-text"> Minutes</div>
         </div>
         <div class="content seconds">
             <div class="display second">
-                <h3>00</h3>
+                <h3>0</h3>
             </div>
             <div class="text second-text"> Seconds</div>
         </div>
